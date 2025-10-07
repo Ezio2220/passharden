@@ -1,15 +1,7 @@
-# Python UV Starter
+# Python password hardening functions
 
-This is a simple Python [uv](https://docs.astral.uv) starter in Firebase Studio.
-
-## Running
-
-```
-uv run main.py
-```
-
-## Add dependencies
-
-```
-uv add ruff
-```
+actually there are 4 functions
+1 get dictionary: read password dicitonary from a github repository specifically from https://github.com/danielmiessler/SecLists
+2 get decrypted password : from a hash string tries to find the original password using passwords dictionaries
+3 secure password checker: from a password string checks if the password meet the minimun requeriments for a secure password
+4 password generator: generate a secure password from a custom size 
